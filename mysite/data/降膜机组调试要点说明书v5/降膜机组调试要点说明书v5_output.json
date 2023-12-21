@@ -1,0 +1,356 @@
+[{"index": 0, "response": 
+[{
+                "subject": "机组",
+                "subject_type": "设备",
+                "relation": "轻微漏氟",
+                "object": "处理方法建议",
+                "object_type": "措施"
+            },
+{
+                "subject": "现场",
+                "subject_type": "地点",
+                "relation": "水电条件具备",
+                "object": "调试前",
+                "object_type": "时间"
+            },
+{
+                "subject": "用户",
+                "subject_type": "对象",
+                "relation": "现场检查",
+                "object": "机组是否泄漏",
+                "object_type": "状态"
+            },
+{
+                "subject": "机组",
+                "subject_type": "设备",
+                "relation": "泄漏",
+                "object": "提前处理",
+                "object_type": "措施"
+            },
+{
+                "subject": "机组",
+                "subject_type": "设备",
+                "relation": "正常运行",
+                "object": "用户不良影响",
+                "object_type": "影响"
+            }]},
+{"index": 1, "response": 
+[{
+                    "subject": "所有机组",
+                    "subject_type": "机组",
+                    "relation": "已把大部分制冷剂回收到高压侧",
+                    "object": "高压侧",
+                    "object_type": "部位"
+                },
+{
+                    "subject": "所有机组",
+                    "subject_type": "机组",
+                    "relation": "液态制冷剂存储在冷凝器和外置油分中",
+                    "object": "冷凝器和外置油分",
+                    "object_type": "设备"
+                },
+{
+                    "subject": "所有机组",
+                    "subject_type": "机组",
+                    "relation": "液态制冷剂存储在冷凝器和外置油分中",
+                    "object": "冷凝器和外置油分",
+                    "object_type": "设备"
+                },
+{
+                    "subject": "冷凝器引射、油分主回油、辅回油三处黄铜角阀及冷凝器出液管上主球阀",
+                    "subject_type": "阀门",
+                    "relation": "关闭",
+                    "object": "冷凝器筒体上方的安全阀、1/4角阀和液包底部的螺塞",
+                    "object_type": "阀门"
+                }]},
+{"index": 2, "response": 
+[{
+                    "subject": "冷凝器液位视镜",
+                    "subject_type": "设备部件",
+                    "relation": "充满状态",
+                    "object": "液位视镜满（颜色较深）",
+                    "object_type": "观察现象"
+                },
+{
+                    "subject": "高压侧制冷剂",
+                    "subject_type": "制冷剂分布部位",
+                    "relation": "无泄漏情况",
+                    "object": "冷凝器液位视镜满（颜色较深）",
+                    "object_type": "观察现象"
+                },
+{
+                    "subject": "冷凝器",
+                    "subject_type": "设备",
+                    "relation": "存在液位",
+                    "object": "冷凝器没有液位",
+                    "object_type": "设备状态"
+                },
+{
+                    "subject": "冷凝器液位视镜",
+                    "subject_type": "设备部件",
+                    "relation": "充满状态",
+                    "object": "视镜颜色较浅",
+                    "object_type": "观察现象"
+                },
+{
+                    "subject": "冷凝器",
+                    "subject_type": "设备",
+                    "relation": "可能存在问题",
+                    "object": "冷凝器没有液位",
+                    "object_type": "设备状态"
+                }]},
+{"index": 3, "response": 
+[{
+                    "subject": "系统参数",
+                    "subject_type": "界面",
+                    "relation": "显示",
+                    "object": "3个压力",
+                    "object_type": "压力值"
+},
+{
+                    "subject": "3个压力",
+                    "subject_type": "压力值",
+                    "relation": "接近",
+                    "object": "0bar",
+                    "object_type": "压力值"
+},
+{
+                    "subject": "机组",
+                    "subject_type": "设备名称",
+                    "relation": "位于",
+                    "object": "蒸发器筒体上方的1/4角阀处",
+                    "object_type": "位置"
+},
+{
+                    "subject": "1/4角阀处",
+                    "subject_type": "位置",
+                    "relation": "可以",
+                    "object": "接压力表",
+                    "object_type": "操作"
+},
+{
+                    "subject": "接压力表",
+                    "subject_type": "操作",
+                    "relation": "查看",
+                    "object": "机组低压侧压力",
+                    "object_type": "压力值"
+}]},
+{"index": 4, "response": 
+[{
+                    "subject": "角阀",
+                    "subject_type": "设备部件",
+                    "relation": "被刮断",
+                    "object": "问题",
+                    "object_type": "故障现象"
+                },
+{
+                    "subject": "增减载毛细管",
+                    "subject_type": "设备部件",
+                    "relation": "断裂",
+                    "object": "问题",
+                    "object_type": "故障现象"
+                },
+{
+                    "subject": "回油管路",
+                    "subject_type": "系统组件",
+                    "relation": "存在",
+                    "object": "裂纹",
+                    "object_type": "故障现象"
+                },
+{
+                    "subject": "传感器接口",
+                    "subject_type": "硬件设备",
+                    "relation": "出现",
+                    "object": "泄漏",
+                    "object_type": "故障现象"
+                }]},
+{"index": 5, "response": 
+[{
+                    "subject": "低压侧",
+                    "subject_type": "设备部位",
+                    "relation": "发现",
+                    "object": "泄漏痕迹",
+                    "object_type": "现象"
+                },
+{
+                    "subject": "外观检查",
+                    "subject_type": "检查方法",
+                    "relation": "借用来进行",
+                    "object": "冷凝器的气态制冷剂",
+                    "object_type": "介质"
+                },
+{
+                    "subject": "气态制冷剂",
+                    "subject_type": "介质",
+                    "relation": "通到",
+                    "object": "低压侧",
+                    "object_type": "设备部位"
+                },
+{
+                    "subject": "打压检漏",
+                    "subject_type": "操作",
+                    "relation": "具体过程",
+                    "object": "制冷剂气体",
+                    "object_type": "介质"
+                },
+{
+                    "subject": "有的机组",
+                    "subject_type": "设备类别",
+                    "relation": "无",
+                    "object": "7号件",
+                    "object_type": "设备部件"
+                },
+{
+                    "subject": "有的机组",
+                    "subject_type": "设备类别",
+                    "relation": "可单独提供",
+                    "object": "220VAC电源",
+                    "object_type": "能源"
+                }]},
+{"index": 6, "response": 
+[{
+                    "subject": "待机组",
+                    "subject_type": "降膜机组",
+                    "relation": "检查",
+                    "object": "回油管路",
+                    "object_type": "管路"
+                },
+{
+                    "subject": "回油管路",
+                    "subject_type": "回油管路",
+                    "relation": "有",
+                    "object": "泄漏",
+                    "object_type": "泄漏"
+                },
+{
+                    "subject": "如果",
+                    "subject_type": "",
+                    "relation": "还需要",
+                    "object": "检查蒸发器及压缩机",
+                    "object_type": "蒸发器及压缩机"
+                },
+{
+                    "subject": "蒸发器及压缩机",
+                    "subject_type": "蒸发器及压缩机",
+                    "relation": "是否有",
+                    "object": "泄漏",
+                    "object_type": "泄漏"
+                },
+{
+                    "subject": "还需",
+                    "subject_type": "",
+                    "relation": "把4、5号阀打开",
+                    "object": "",
+                    "object_type": ""
+                },
+{
+                    "subject": "4、5号阀",
+                    "subject_type": "阀门",
+                    "relation": "打开",
+                    "object": "使",
+                    "object_type": "动作"
+                },
+{
+                    "subject": "使",
+                    "subject_type": "",
+                    "relation": "蒸发器及压缩机腔体的压力升高",
+                    "object": "压力",
+                    "object_type": "压力"
+                },
+{
+                    "subject": "压力",
+                    "subject_type": "",
+                    "relation": "升高后",
+                    "object": "检漏",
+                    "object_type": "动作"
+                }]},
+{"index": 7, "response": 
+[{
+                    "subject": "回油管路",
+                    "subject_type": "设备部件",
+                    "relation": "泄漏",
+                    "object": "蒸发器底部接上的引射回油管处",
+                    "object_type": "连接部位"
+                }]},
+{"index": 8, "response": 
+[{
+  "subject": "拆下的管路泄漏点",
+  "subject_type": "管路部分",
+  "relation": "处理",
+  "object": "降膜机组调试要点说明书V5",
+  "object_type": "说明文档"
+}]},
+{"index": 9, "response": 
+[{
+                    "subject": "已有的制冷剂",
+                    "subject_type": "制冷剂",
+                    "relation": "使用",
+                    "object": "氮气打压",
+                    "object_type": "氮气"
+                },
+{
+                    "subject": "避免使用氮气打压",
+                    "subject_type": "行为",
+                    "relation": "替代",
+                    "object": "使用已有的制冷剂",
+                    "object_type": "制冷剂"
+                }]},
+{"index": 10, "response": 
+[{
+  "subject": "降膜机组调试",
+  "subject_type": "调试任务",
+  "relation": "需要进行",
+  "object": "氮气打压检漏",
+  "object_type": "检测方法"
+}]},
+{"index": 11, "response": 
+[{
+                    "subject": "氮气打压",
+                    "subject_type": "操作方式",
+                    "relation": "需要",
+                    "object": "抽至一定真空度后再充气态制冷剂至常压后继续抽真空",
+                    "object_type": "操作步骤"
+                },
+{
+                    "subject": "现场所用真空泵功率所限",
+                    "subject_type": "限制因素",
+                    "relation": "导致",
+                    "object": "需要抽至一定真空度后再充气态制冷剂至常压后继续抽真空",
+                    "object_type": "原因"
+                },
+{
+                    "subject": "不凝性气体含量",
+                    "subject_type": "目标",
+                    "relation": "达到",
+                    "object": "合理的范围之内",
+                    "object_type": "状态"
+                }]},
+{"index": 12, "response": 
+[{
+                    "subject": "低压侧泄漏",
+                    "subject_type": "故障现象",
+                    "relation": "导致",
+                    "object": "损失一点气态制冷剂",
+                    "object_type": "制冷剂损失情况"
+                },
+{
+                    "subject": "损失量",
+                    "subject_type": "制冷剂损失程度",
+                    "relation": "约等于",
+                    "object": "总制冷剂量的5%",
+                    "object_type": "比例"
+                },
+{
+                    "subject": "不补充制冷剂",
+                    "subject_type": "操作建议",
+                    "relation": "可能导致",
+                    "object": "正常开机",
+                    "object_type": "设备运行状态"
+                },
+{
+                    "subject": "有条件",
+                    "subject_type": "前提条件",
+                    "relation": "如果满足",
+                    "object": "最好补充一定量制冷剂",
+                    "object_type": "操作建议"
+                }]}]
