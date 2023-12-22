@@ -7,3 +7,7 @@ baichuan-inc
 fine-tune
 llm_extraction.py
 local_data
+mysite/data
+mysite/extraction/__pycache__
+mysite/mysite/__pycache__
+nohup.out

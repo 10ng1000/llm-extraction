@@ -2,7 +2,7 @@ import time
 
 from celery import shared_task
 from celery import Celery
-import llm_relation_extraction.to_doccano as to_doccano
+import extraction.to_doccano as to_doccano
 #import llm_relation_extraction.llm_extraction as llm_extraction
 import multiprocessing
 import os

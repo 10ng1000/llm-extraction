@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('llm_relation_extraction', '0001_initial'),
+        ('extraction', '0001_initial'),
     ]
 
     operations = [

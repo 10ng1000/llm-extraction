@@ -1,7 +1,7 @@
 import pytest
 import requests
 import json
-base_url ='http://210.30.97.207:8000/llm_relation_extraction/'
+base_url ='http://210.30.97.207:8000/extraction/'
 
 
 def test_import_data():
