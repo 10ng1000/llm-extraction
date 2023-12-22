@@ -1,3 +1,3 @@
 #!/bin/bash
-./dj.sh &
-./ce.sh &
+nohup ./dj.sh &
+nohup ./ce.sh &
