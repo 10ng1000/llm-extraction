@@ -1,7 +1,8 @@
-accelerate
-colorama
-bitsandbytes
-sentencepiece
-streamlit
-transformers_stream_generator
-cpm_kernels
+redis
+celery
+django
+zhipuai
+icecream
+pretty-errors
+langchain
+chromadb

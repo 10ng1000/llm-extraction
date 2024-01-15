@@ -1,13 +1,4 @@
-LICENSE
-LLaMA-Factory-main
-README.md
-__pycache__
-back
-baichuan-inc
-fine-tune
-llm_extraction.py
-local_data
-mysite/data
-mysite/extraction/__pycache__
-mysite/mysite/__pycache__
-nohup.out
+.history
+#忽略/data下除了README.md以外的文件
+data/*
+!data/README.md

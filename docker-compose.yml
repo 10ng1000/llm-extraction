@@ -1,0 +1,18 @@
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8000:8000"
+    restart: always
+    depends_on:
+      - celery
+  
+  celery:
+    build: .
+    command: celery -A mysite worker -l info
+    restart: always
+    volumes:
+      - ./data:/app/data
