@@ -18,7 +18,7 @@ class ProjectView(View):
         document = client.fetch_documents(project_id).json()['results']
         if len(document) == 0:
             return HttpResponseNotFound('项目中没有文档')
-        import_message = '' if len(document) == 1 else '请注意，项目中有多个文档，只会处理第一个文档'
+        import_message = '' if len(document) == 1 else '请注意，项目中有多个文档，只会处理第一个文档,'
         content = document[0]['text']
         # 将content写入文件
         path = os.path.abspath(os.path.dirname(__file__))

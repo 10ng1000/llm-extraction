@@ -3,10 +3,14 @@ services:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - ./data:/app/data
+      - .:/app
     ports:
-      - "8000:8000"
+      - "9000:8000"
     restart: always
+    logging:
+      options:
+        max-size: "200k"
+        max-file: "10"
     depends_on:
       - celery
   
@@ -14,5 +18,9 @@ services:
     build: .
     command: celery -A mysite worker -l info
     restart: always
+    logging:
+      options:
+        max-size: "200k"
+        max-file: "10"
     volumes:
-      - ./data:/app/data
+      - .:/app

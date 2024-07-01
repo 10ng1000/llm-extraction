@@ -5,4 +5,4 @@ zhipuai
 icecream
 pretty-errors
 langchain
-chromadb
+django-cors-headers
