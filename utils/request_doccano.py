@@ -5,7 +5,7 @@ class Client(object):
         用于连接doccano的客户端
     '''
 
-    def __init__(self, entrypoint='http://82.157.118.175:8098', username='bingshan@datalabel.com', password='bingshan'):
+    def __init__(self, entrypoint='http://62.234.40.129:8098', username='bingshan@datalabel.com', password='bingshan'):
         self.entrypoint = entrypoint
         self.client = requests.Session()
         self.client.auth = (username, password)

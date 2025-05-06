@@ -6,3 +6,4 @@ icecream
 pretty-errors
 langchain
 django-cors-headers
+langchain-community

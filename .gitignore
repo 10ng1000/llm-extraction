@@ -2,3 +2,7 @@
 #忽略/data下除了README.md以外的文件
 data/*
 !data/README.md
+front
+db.sqlite3
+# Ignore all .pyc files
+*.pyc
